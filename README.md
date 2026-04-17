@@ -1,6 +1,8 @@
 # TRIGUE
 TRIGUE is a two-device Max for Live system that turns monophonic audio input (voice, instrument) into controllable MIDI for performance and sound design.
 ============================================================================================================================================
+<img width="708" height="423" alt="Screenshot_Trigue" src="https://github.com/user-attachments/assets/5e5785ed-ce19-4c70-ba83-adbe1e831cb0" />
+
 The Send device (Audio Effect) analyzes incoming audio in real time, tracks pitch and amplitude, converts them to MIDI note/velocity data, and routes the result through selectable internal buses (1–5). Its interface provides quick visual feedback (waveform, meter, Hz/pitch, note name, velocity) plus direct control of dry audio monitoring level.
 
 The Receive device (MIDI Effect) listens to the matching bus and outputs musical MIDI. It includes three operation modes: Note (monophonic note output), CC (amplitude-to-CC output), and Both (notes + CC simultaneously). Users can select CC number (1–127), choose tracking presets (Standard / Stable / Fast / Slow) to balance stability vs latency, use a momentary Sustain control, and trigger Stop (panic) to instantly clear held notes.
