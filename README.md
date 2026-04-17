@@ -8,7 +8,8 @@ The Send device (Audio Effect) analyzes incoming audio in real time, tracks pitc
 The Receive device (MIDI Effect) listens to the matching bus and outputs musical MIDI. It includes three operation modes: Note (monophonic note output), CC (amplitude-to-CC output), and Both (notes + CC simultaneously). Users can select CC number (1–127), choose tracking presets (Standard / Stable / Fast / Slow) to balance stability vs latency, use a momentary Sustain control, and trigger Stop (panic) to instantly clear held notes.
 
 Together, Send + Receive provide a practical Audio-to-MIDI workflow with flexible routing and live-friendly controls.
------------------------------------------
+
+-------------------------------------------------
 Quick Setup in Ableton Live
 1) Add the Send device (Audio Effect)
 Create or choose an Audio Track (mic, vocal, instrument, or audio clip source).
